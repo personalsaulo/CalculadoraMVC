@@ -6,12 +6,12 @@ using System.Web.Mvc;
 
 namespace CalculadoraMVC.Controllers
 {
-    public class SomaController : Controller
+    public class SubtracaoController : Controller
     {
-        // GET: Soma
-        public int Addition(int numero1, int numero2)
+        // GET: Subtracao
+        public int Subtraction(int numero1, int numero2)
         {
-            int resultado = numero1 + numero2;
+            int resultado = numero1 - numero2;
 
             return resultado;
         }

@@ -142,8 +142,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DivisaoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MultiplicacaoController.cs" />
     <Compile Include="Controllers\SomaController.cs" />
+    <Compile Include="Controllers\SubtracaoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -186,7 +189,10 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Soma\Index.cshtml" />
+    <Content Include="Views\Soma\Addition.cshtml" />
+    <Content Include="Views\Subtracao\Subtraction.cshtml" />
+    <Content Include="Views\Multiplicacao\Multiplication.cshtml" />
+    <Content Include="Views\Divisao\Division.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
